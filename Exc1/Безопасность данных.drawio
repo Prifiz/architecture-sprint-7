@@ -1,0 +1,340 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="4669" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o7bZOgypY577dPKYxisu-1547" value="Exc1" style="swimlane;startSize=30;horizontal=1;containerType=tree;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="140" width="2725" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1548" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" parent="o7bZOgypY577dPKYxisu-1547" source="o7bZOgypY577dPKYxisu-1552" target="o7bZOgypY577dPKYxisu-1553">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1550" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="o7bZOgypY577dPKYxisu-1547" source="o7bZOgypY577dPKYxisu-1552" target="o7bZOgypY577dPKYxisu-1555">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1552" value="Безопасность данных" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1215" y="617" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1553" value="Публичные данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="810" y="660" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1555" value="Внутренние данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1210" y="507" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1562" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="o7bZOgypY577dPKYxisu-1547" source="o7bZOgypY577dPKYxisu-1552" target="o7bZOgypY577dPKYxisu-1561">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="507" as="sourcePoint" />
+            <mxPoint x="1035" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1561" value="Конфиденциальные данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1590" y="554" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1573" value="Секретные данные" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1240" y="757" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1574" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="o7bZOgypY577dPKYxisu-1547" source="o7bZOgypY577dPKYxisu-1552" target="o7bZOgypY577dPKYxisu-1573">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="630" as="sourcePoint" />
+            <mxPoint x="1075" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1583" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1584" source="o7bZOgypY577dPKYxisu-1561" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="839" as="sourcePoint" />
+            <mxPoint x="1205" y="674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1584" value="ФИО, телефон и электронная почта пользователей" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FAD7AC;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1830" y="484" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1591" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1592" source="o7bZOgypY577dPKYxisu-1553" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285" y="862" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1592" value="Информация от УК" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="555" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1593" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1594" source="o7bZOgypY577dPKYxisu-1555" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="837" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1594" value="Данные о работах по капремонту: &lt;br&gt;запланированные и история" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="975" y="190" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1595" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1596" source="o7bZOgypY577dPKYxisu-1555" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="837" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1596" value="Описание недвижимости" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1290" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1597" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1598" source="o7bZOgypY577dPKYxisu-1561" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="816" as="sourcePoint" />
+            <mxPoint x="1235" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1598" value="Счета ЖКХ" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1900" y="645" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1600" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;но почему-то у нас в стране &lt;br&gt;повсеместно они как публичные:&lt;br&gt;в открытую торчат из ящиков, &lt;br&gt;списки должников с размером долга &lt;br&gt;также открыто вывешиваются;&lt;br&gt;Тем не менее настаиваю, что&lt;br&gt;эти данные конфиденциальны!&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1870" y="690" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1601" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1602" source="o7bZOgypY577dPKYxisu-1555" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="844" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1602" value="&lt;div&gt;Результаты осмотра недвижимости&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="800" y="325" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1603" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1604" source="o7bZOgypY577dPKYxisu-1573" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="894" as="sourcePoint" />
+            <mxPoint x="1105" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1604" value="Данные онлайн-сделок" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1365" y="890" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1607" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1608" source="o7bZOgypY577dPKYxisu-1573" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="894" as="sourcePoint" />
+            <mxPoint x="1105" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1608" value="Расширенные данные пользователей &lt;br&gt;для сделок" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1030" y="880" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1609" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1610" source="o7bZOgypY577dPKYxisu-1561" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="816" as="sourcePoint" />
+            <mxPoint x="1235" y="651" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1610" value="Данные умного дома (телеметрия),&lt;br&gt;управляющие команды" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1835" y="870" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1611" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1612" source="o7bZOgypY577dPKYxisu-1555" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="844" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1612" value="Данные для аналитики, BI, отчетность" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1470" y="330" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1616" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1617" source="o7bZOgypY577dPKYxisu-1553" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1235" y="862" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1617" value="&lt;div&gt;Модели недвижимости для тура&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="555" y="567" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1613" value="Часть из них могут быть публичными,&lt;br&gt;тем не менее считаем внутренними" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1510" y="355" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1619" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1620" source="o7bZOgypY577dPKYxisu-1592" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="852" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1620" value="Риск: искажение данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="330" y="820" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1622" value="Оценка: незначительный&lt;br&gt;Обоснование:&lt;br&gt;финансовых или репутационных потерь почти не будет,&lt;br&gt;возможно лишь частичное дезинформирование пользователей" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="130" y="877" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1621" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1622" source="o7bZOgypY577dPKYxisu-1592" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="922" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1625" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1626" source="o7bZOgypY577dPKYxisu-1617" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="892" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1626" value="&lt;div&gt;Риск: потеря данных&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="350" y="627" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1627" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1628" source="o7bZOgypY577dPKYxisu-1617" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="862" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1628" value="Оценка: значительный&lt;br&gt;Обоснование:&lt;br&gt;наличие тура может быть киллер-фичей бизнеса, &lt;br&gt;поэтому потеря данных может повлиять на прибыли. &lt;br&gt;С этой точки зрения эту категорию данных можно считать и внутренней&lt;br&gt;Но с другой стороны вероятность взлома такого рода данных не так велика, &lt;br&gt;ценность для взломщика неочевидна" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="60" y="675" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1633" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1634" source="o7bZOgypY577dPKYxisu-1608" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="1067" as="sourcePoint" />
+            <mxPoint x="85" y="984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1634" value="Риск: утечка данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="910" y="957" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1635" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1636" source="o7bZOgypY577dPKYxisu-1604" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="1067" as="sourcePoint" />
+            <mxPoint x="85" y="984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1636" value="Риск: утечка данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1340" y="957" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1637" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1638" source="o7bZOgypY577dPKYxisu-1608" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1210" as="sourcePoint" />
+            <mxPoint x="-935" y="1264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1638" value="Оценка: критический&lt;div&gt;Обоснование: &lt;br&gt;особо чувствительные данные, &lt;br&gt;которые могут быть использованы злоумышленником, &lt;br&gt;например для кражи денег.&lt;br&gt;Отсюда же и высокие репутационные потери&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="910" y="1000" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1643" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1644" source="o7bZOgypY577dPKYxisu-1604" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1220" as="sourcePoint" />
+            <mxPoint x="-955" y="1284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1644" value="Оценка: критический&lt;br&gt;Обоснование:&lt;div&gt;чувствительные данные,&lt;br&gt;утечка которых может негативно повлиять &lt;br&gt;на бизнес и репутацию компании&lt;br&gt;(например данные могут быть&lt;br&gt;проданы конкурентам)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1450" y="990" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1645" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1646" source="o7bZOgypY577dPKYxisu-1584" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="869" as="sourcePoint" />
+            <mxPoint x="165" y="974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1646" value="Риск: утечка данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FAD7AC;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="2290" y="440" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1647" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1648" source="o7bZOgypY577dPKYxisu-1610" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="869" as="sourcePoint" />
+            <mxPoint x="195" y="951" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1648" value="Риск: искажения данных, утечка данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="2132" y="890" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1649" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1650" source="o7bZOgypY577dPKYxisu-1598" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="869" as="sourcePoint" />
+            <mxPoint x="195" y="951" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1650" value="Риск: потеря данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="2132" y="615" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1651" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1652" source="o7bZOgypY577dPKYxisu-1596" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="597" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1652" value="Риск: искажения, потеря данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1530" y="70" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1653" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1654" source="o7bZOgypY577dPKYxisu-1612" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="597" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1654" value="Риск: некачественные данные, обесценивание" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1805" y="250" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1655" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1656" source="o7bZOgypY577dPKYxisu-1602" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="637" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1656" value="&lt;div&gt;Риск: искажение данных&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="570" y="270" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1657" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1658" source="o7bZOgypY577dPKYxisu-1594" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="637" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1658" value="Риск: искажение данных" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="720" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1659" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1660" source="o7bZOgypY577dPKYxisu-1610" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="679" as="sourcePoint" />
+            <mxPoint x="-845" y="921" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1660" value="Оценка: значительный&lt;br&gt;Обоснование:&lt;br&gt;Нарушение взаимодействия пользователей с устройствами умного дома, &lt;br&gt;как следствие репутационные и финансовые потери. &lt;br&gt;При этом риск доступа к дому (умный замок, камеры)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="2122" y="950" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1661" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1662" source="o7bZOgypY577dPKYxisu-1598" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1038" y="710" as="sourcePoint" />
+            <mxPoint x="-777" y="1001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1662" value="Оценка: значительный&lt;br&gt;Обоснование:&lt;br&gt;Нарушение процессов выставления счетов, &lt;br&gt;бух. учета, как следствие риск потери денег" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="2132" y="657" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1663" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="o7bZOgypY577dPKYxisu-1664" source="o7bZOgypY577dPKYxisu-1584" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="599" as="sourcePoint" />
+            <mxPoint x="-745" y="1074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1664" value="Оценка: критический&lt;br&gt;Обоснование:&lt;br&gt;нарушение требований законодательства" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FAD7AC;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="2290" y="494" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1665" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1666" source="o7bZOgypY577dPKYxisu-1612" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="414" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1666" value="Оценка: незначительный&lt;br&gt;Обоснование: &lt;br&gt;при корректной организации хранения &lt;br&gt;чувствительные данные в отчетности содержаться не будут.&lt;br&gt;За время решения инцидента &lt;br&gt;часть аналитики может стать неактуаальной" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1790" y="300" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1667" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1668" source="o7bZOgypY577dPKYxisu-1596" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1668" value="Оценка: значительный&lt;br&gt;Обоснование:&lt;br&gt;необходима защита от несанкционированных изменений.&lt;br&gt;Могут быть финансовые потери &lt;br&gt;в случае несоответствия данных реальным объектам &lt;br&gt;и как следствие репутационные потери" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="1520" y="110" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1669" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1670" source="o7bZOgypY577dPKYxisu-1602" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1670" value="Оценка: значительный&lt;div&gt;Обоснование:&lt;br&gt;нарушение данных об осмотрах недвижимости&lt;br&gt;может косвенно влиять на процесс продаж &lt;br&gt;и вызывать финансовые издержки,&lt;br&gt;причем в ряде случаев &lt;br&gt;вплоть до разрыва договоров купли-продажи&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="455" y="340" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1671" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="o7bZOgypY577dPKYxisu-1672" source="o7bZOgypY577dPKYxisu-1594" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1672" value="Оценка: значительный&lt;br&gt;Обоснование:&lt;br&gt;влияние на управление финансами&lt;br&gt;из фонда кап. ремонта,&lt;br&gt;искажение может привести&lt;br&gt;к массовым жалобам жильцов.&lt;br&gt;В ряде случаев можно даже отнести &lt;br&gt;к более высокому классу критичности, &lt;br&gt;т.к. искажения могут позволить &quot;отмыть&quot; средства" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#FFFFCC;strokeColor=#36393d;" vertex="1" parent="o7bZOgypY577dPKYxisu-1547">
+          <mxGeometry x="590" y="85" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1582" value="УК - управляющая компания" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1491" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1623" value="&lt;div&gt;Оценки:&lt;/div&gt;незначительный-значительный-критический" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1330" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o7bZOgypY577dPKYxisu-1624" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Риски:&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;утечка данных,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;потеря данных,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;искажение данных,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;некачественные данные,&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;обесценивание данных.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1371" width="200" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
