@@ -1,54 +1,48 @@
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-frontend-to-backend
+  name: allow-backend-to-frontend
 spec:
   podSelector:
     matchLabels:
       role: back-end-api
   policyTypes:
   - Ingress
+  - Egress
   ingress:
   - from:
       - podSelector:
           matchLabels:
-            app: front-end
+            role: front-end
+  egress:
+  - to:
+      - podSelector:
+          matchLabels:
+            role: front-end
             
 ---
 
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-backend-to-frontend
+  name: allow-frontend-to-backend
 spec:
   podSelector:
     matchLabels:
       role: front-end
   policyTypes:
   - Ingress
+  - Egress
   ingress:
   - from:
       - podSelector:
           matchLabels:
-            app: back-end-api
-            
----
-
-apiVersion: networking.k8s.io/v1
-kind: NetworkPolicy
-metadata:
-  name: allow-admin-frontend-to-backend
-spec:
-  podSelector:
-    matchLabels:
-      role: admin-back-end-api
-  policyTypes:
-  - Ingress
-  ingress:
-  - from:
+            role: back-end-api
+  egress:
+  - to:
       - podSelector:
           matchLabels:
-            app: admin-front-end
+            role: back-end-api
             
 ---
 
@@ -59,11 +53,41 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      role: admin-front-end
+      role: admin-back-end-api
   policyTypes:
   - Ingress
+  - Egress
   ingress:
   - from:
       - podSelector:
           matchLabels:
-            app: admin-back-end-api
+            role: admin-front-end
+  egress:
+  - to:
+      - podSelector:
+          matchLabels:
+            role: admin-front-end
+            
+---
+
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-admin-frontend-to-backend
+spec:
+  podSelector:
+    matchLabels:
+      role: admin-front-end
+  policyTypes:
+  - Ingress
+  - Egress
+  ingress:
+  - from:
+      - podSelector:
+          matchLabels:
+            role: admin-back-end-api
+  egress:
+  - to:
+      - podSelector:
+          matchLabels:
+            role: admin-back-end-api
