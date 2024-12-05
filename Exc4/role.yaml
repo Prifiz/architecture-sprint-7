@@ -20,7 +20,7 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["pods"]
-  verbs: ["create", "update", "patch"]
+  verbs: ["get", "create", "update", "patch"]
 
 ---
 # secret-reader
@@ -56,4 +56,4 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["pods"]
-  verbs: ["create", "update", "patch"]
+  verbs: ["get", "create", "update", "patch"]
